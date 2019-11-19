@@ -52,10 +52,7 @@ const Main: React.FC<IMainProps> = (props: IMainProps) => {
         />
       </aside>
       <div className="page-container">
-        <Router
-          routes={routes}
-          setSelectedRoute={(key: Routes) => setSelectedRoute(key)}
-        />
+        <Router routes={routes} />
       </div>
     </main>
   );

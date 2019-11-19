@@ -3,7 +3,6 @@ import { Redirect, Route } from "react-router-dom";
 import { Routes, IRouteComponent } from "./models/AppModel";
 
 interface IRouteAggrProps {
-  setSelectedRoute: (key: Routes) => void;
   routes: IRouteComponent[];
 }
 
